@@ -1,0 +1,53 @@
+.wrapper {
+	background-image: url('IMG_0888.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:  contain;
+	margin: 0;
+	height: 100%;
+	min-height: 750px;
+	min-width: 674px;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	margin-left: 0;
+}
+
+.square {
+	width: 400px;
+	height: 500px;
+	background: rgba(255, 255, 255, 0.7);
+	margin-top: 50px;
+	display: inline-block;
+	padding-top: 15px;
+}
+
+.text {
+	font-family: serif;
+	font-weight: bolder;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #60bbd0;
+}
+
+ .answer {
+	display: inline-block;
+	font-size: 30px;
+	color: #f2f3f5;
+}
+
+.header {
+	color: #eee77c;
+	font-size: 22px;
+}
+
+.description {
+	color: #f2f3f5;
+	font-size: 20px;
+}
