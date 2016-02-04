@@ -18,8 +18,9 @@ $(document).ready(function(){
 		else {
 
 		var xhr = new XMLHttpRequest;
-		xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=2de143494c0b295cca9337e1e96b00e0", false);
-		xhr.send();
+		//xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=2de143494c0b295cca9337e1e96b00e0", false);
+		xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=44db6a862fba0b067b1930da0d769e98", false);
+			xhr.send();
 		var answer = xhr.responseText;
 
 		/*alert(answer.slice('main":{"temp','7.63,'));*/
